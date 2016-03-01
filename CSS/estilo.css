@@ -78,17 +78,20 @@ footer {
    	padding:5px;	 	 
 }
 a:hover{
+	text-decoration: none;
 	color: orange;
 }
 a:visited{
+	text-decoration: none;
 	color: white;
 }
 a:link{
+	text-decoration: none;
 	color: white;
 }
 
 aside{
-	text-decoration: none;
+	
 	float: left;
 	color: white;
 	text-align: center;
