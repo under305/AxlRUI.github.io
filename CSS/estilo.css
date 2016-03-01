@@ -49,7 +49,7 @@ section.special{
 }
 
 section{
-	text-decoration: none;
+	
 	margin-top: 2em;
 	padding-top: 50px;
     padding-right: 200px;
@@ -88,7 +88,7 @@ a:link{
 }
 
 aside{
-
+	text-decoration: none;
 	float: left;
 	color: white;
 	text-align: center;
