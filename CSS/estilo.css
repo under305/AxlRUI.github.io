@@ -36,6 +36,18 @@ article{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6b25', endColorstr='#ffa418', GradientType=0 );
 }
 
+section.special{
+		margin-top: 2em;
+	padding-top: 50px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+	font-family: "Dosis";
+	font-size: 40px;
+	text-align: center;
+	background: rgba(255,107,37,.0);
+}
+
 section{
 
 	margin-top: 2em;
