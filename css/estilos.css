@@ -1,0 +1,149 @@
+html{
+	height: 100%;
+}
+* {
+	padding: 0;
+	margin: 0;
+
+}
+body{
+	font-family: "Roboto";
+
+	background: rgba(204,204,204,1);
+
+	background: -moz-linear-gradient(top, rgba(204,204,204,1) 0%, rgba(242,242,242,1) 100%);
+
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(204,204,204,1)), color-stop(100%, rgba(242,242,242,1)));
+
+	background: -webkit-linear-gradient(top, rgba(204,204,204,1) 0%, rgba(242,242,242,1) 100%);
+
+	background: -o-linear-gradient(top, rgba(204,204,204,1) 0%, rgba(242,242,242,1) 100%);
+
+	background: -ms-linear-gradient(top, rgba(204,204,204,1) 0%, rgba(242,242,242,1) 100%);
+
+	background: linear-gradient(to bottom, rgba(204,204,204,1) 0%, rgba(242,242,242,1) 100%);
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#f2f2f2', GradientType=0 );
+}
+
+header{
+	background: rgba(0,0,0,1);
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	z-index: 100;
+}
+.zoom{
+	display: block!important;
+	-webkit-transition:-webkit-transform 1s ease-out;
+	-moz-transition:-moz-transform 1s ease-out;
+	-o-transition:-o-transform 1s ease-out;
+	-ms-transition:-moz-transform 1s ease-out;
+	transition:transform 1s ease-out;
+}
+.zoom:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.contenido{
+	padding-top: 80px;
+
+}
+.wrap{
+	width: 90%;
+	max-width: 500px;
+	padding: 40px;
+	margin: auto;
+	background: #fff;
+	box-shadow: 0px 0px 10px grey;
+}
+.contenedor{
+	width: 100%
+	color: #f2f2f2;
+	padding: 50px;
+}
+	.contenedor .formulario{
+		width: 100%;
+		margin: auto;
+	}
+		.contenedor .formulario .input-group{
+			position: relative;
+			margin-bottom: 32px;
+		}
+		.contenedor .formulario .input-group input[type="text"],
+		.contenedor .formulario .input-group input[type="password"]{
+			font-family: "Roboto";
+			font-size: 16px;
+			color: #930027;
+			width: 95%;
+			outline: none;
+			padding: 15px;
+			background: none;
+			border: none;
+			border-bottom: 2px solid #040404;
+		}
+			.contenedor .formulario .input-group input[type="text"]:focus,
+			.contenedor .formulario .input-group input[type="text"]:active,
+			.contenedor .formulario .input-group input[type="password"]:focus,
+			.contenedor .formulario .input-group input[type="password"]:active{
+				outline: none;
+				border-bottom: 2px solid #cd0000;
+			}
+			.contenedor .formulario .input-group input[type="text"].error,
+			.contenedor .formulario .input-group input[type="password"].error{
+				border-bottom: 2px solid #d32f2f;
+			}
+				.contenedor .formulario .input-group input[type="text"].error + label,
+				.contenedor .formulario .input-group input[type="password"].error + label{
+					color: #d32f2f;
+				}
+		.contenedor .formulario .input-group label{
+			color: #040404;
+		}
+			.contenedor .formulario .input-group label.label{
+				-webkit-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+				margin-left: 15px;
+				font-size: 16px;
+				line-height: 16px;
+				position: absolute;;
+				top: 16px;
+				left: 0;
+			}
+				.contenedor .formulario .input-group label.label.active{
+					top: -12px;
+					font-size: 12px;
+					line-height: 12px;
+					color: #b6b6b6;
+				}
+			.contenedor .formulario .input-group.error label{
+				color: #d32f2f;
+			}
+				.contenedor .formulario .input-group.error label:hover{
+					background: rgba(211,47,47,0.2);
+				}
+				.contenedor .formulario .input-group.error label:before{
+					border: 2px solid #d32f2f;
+				}
+			.contenedor .formulario input[type="submit"]{
+				background: #040404;
+				border-radius: 1px;
+				border: 2px solid #f2f2f2;
+				color: #fff;
+				cursor: pointer;
+				display: inline-block;
+				font-family: "Roboto";
+				font-size: 16px;
+				padding: 15px;
+				-webkit-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+				width: 100%;
+			}
+			.contenedor .formulario input[type="submit"]:hover{
+				background: #930027;
+			}
