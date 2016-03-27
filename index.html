@@ -10,11 +10,10 @@
 </head>
 <body>
 			<header>
-				<nav class="logo">
-					<a href="index.html">
-						<img class="zoom" alt="Inicio" src="medios/logoproyectfa2.png" height="80px" style="display: block;margin:0 auto 0 auto">
-					</a>
-				</nav>
+				<div class="banner">
+					<div class="logo"> <a href="index.html"><img class="zoom" alt="Inicio" src="medios/logoproyectfa2.png" height="80px" style="display: block;margin:0 auto 0 auto"></a></div>
+					
+				</div>
 			</header>
 		<div class="contenido">
 			<div class="contenedor">
@@ -32,8 +31,10 @@
 							<label class="label" for="pass">Contraseña:</label>
 						</div>
 
-						<input type="submit" id="btn-submit"
-						value="Entrar"></input>	
+						<input type="button" onclick="window.location.href = 'empleadoindex.html' " id="btn-submit"
+						value="Empleado"></input>
+						<input type="button" onclick="window.location.href = 'administradorindex.html' " id="btn-submit"
+						value="Administrador"></input>	
 					</div>
 					</form>
 				</div>
