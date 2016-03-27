@@ -1,5 +1,6 @@
 html{
 	height: 100%;
+
 }
 * {
 	padding: 0;
@@ -77,7 +78,7 @@ nav a:hover{
 	transform: scale(1.1);
 }
 .contenido{
-	padding-top: 80px;
+	padding-top: 100px;
 
 }
 .wrap{
@@ -86,8 +87,22 @@ nav a:hover{
 	padding: 40px;
 	margin: auto;
 	background: #fff;
-	box-shadow: 0px 0px 10px grey;
+	box-shadow: 10px 10px 10px grey;
+	-webkit-transition:all 1000ms ease;
+	-o-transition:all 1000ms ease;
+	transition: all 1000ms ease;
 }
+.wrap:hover{
+	width: 90%;
+	max-width: 500px;
+	padding: 40px;
+	margin: auto;
+	background: #fff;
+	box-shadow: 10px 10px 10px grey;
+	border-radius: 40px;
+
+}
+
 .contenedor{
 	width: 100%
 	color: #f2f2f2;
@@ -201,7 +216,7 @@ nav a:hover{
  position: fixed;
  left: 0;
  top: 200px;
- z-index: 2000;
+ z-index: 120;
 }
 	.navegacion ul{
 		list-style: none;
@@ -226,5 +241,70 @@ nav a:hover{
 	position: fixed;
 	right: 20%;
 	top: 20%;
-	z-index: 1999;
+	
+}
+
+.navmini{
+ position: fixed;
+ left: 0;
+ top: 200px;
+ z-index: 120;
+}
+	.navmini ul{
+		list-style: none;
+	}
+	.navmini ul li a{
+		
+		font-size: 15px;
+		display: inline-block;
+		color: #fff;
+		background: #000;
+		padding: 10px 10px;
+		text-decoration: none;
+		-webkit-transition: all 500ms ease;
+		-o-transition: all 500ms ease;
+		transition: all 500ms ease;
+	}
+	.navmini ul li a:hover{
+		font-size: 20px;
+		background: #000;
+		padding: 20px 60px;
+		border-radius: 5px
+	}
+
+
+select{
+	
+	background: #040404;
+	border-radius: 1px;
+	border: 2px solid #f2f2f2;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Roboto";
+	font-size: 16px;
+	padding: 15px;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	width: 100%;
+}
+	select:hover{
+		background: #930027;
+		border-radius: 50px;
+	}
+
+#empleadoform{
+	top: 14px;
+}
+
+.ticket{
+	padding-top: 10px
+	background: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+#pad{
+	top: 200px;
 }

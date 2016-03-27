@@ -59,3 +59,25 @@ for (var i = 0; i < elementos.length; i++) {
 }
 
 }())
+
+function cambiar(){
+
+	var formulario = document.formulario_login,
+		elementos = formulario.elements;
+	var d = new Date(),
+		equip = document.getElementById("equipo").value,
+		mac = document.getElementById("mac").value,
+		codigo = document.getElementById("codigo").value;
+
+	document.getElementById("ticket").innerHTML ="Nombre del Empleado" + "<br><br>" + d.toString() + "<br><br>" + equip + "<br><br>" + mac + "<br><br>" + codigo;
+};
+
+function historia(){
+	var formulario = document.formulario_login,
+		elementos = formulario.elements;
+	var o = document.getElementById("historial").value
+	var d = new Date(o);
+
+	document.getElementById("histo").innerHTML = "Nombre del Empleado" + "<br><br>" + o;
+
+};
