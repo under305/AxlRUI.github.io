@@ -81,3 +81,20 @@ function historia(){
 	document.getElementById("histo").innerHTML = "Nombre del Empleado" + "<br><br>" + o;
 
 };
+
+function valusuario(){
+
+	var input = document.getElementById("nombre"),
+		password = document.getElementById("pass");
+
+	if ((input.value == "empleado") && (password.value == "contraseña")) {
+
+		window.location.href("empleadoindex.html");
+	}else if ((input.value == "administrador") && (password.value == "contraseña") ) {
+
+		window.location.href("administradorindex.html");
+	}else{
+		alert("Usuario o contraseña incorrectos");
+	}
+
+};
