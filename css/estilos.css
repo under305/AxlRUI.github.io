@@ -1,6 +1,6 @@
 html{
 	height: 100%;
-
+	
 }
 * {
 	padding: 0;
@@ -92,6 +92,7 @@ nav a:hover{
 	-o-transition:all 1000ms ease;
 	transition: all 1000ms ease;
 }
+
 .wrap:hover{
 	width: 90%;
 	max-width: 500px;
@@ -108,6 +109,7 @@ nav a:hover{
 	color: #f2f2f2;
 	padding: 50px;
 }
+
 	.contenedor .formulario{
 		width: 100%;
 		margin: auto;
@@ -211,6 +213,25 @@ nav a:hover{
 			.contenedor .salir input[type="button"]:hover{
 				background: #930027;
 			}
+			.contenedor .formulario input[type="date"]{
+				background: #040404;
+				border-radius: 1px;
+				border: 2px solid #f2f2f2;
+				color: #fff;
+				cursor: pointer;
+				display: inline-block;
+				font-family: "Roboto";
+				font-size: 16px;
+				padding: 15px;
+				-webkit-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+				width: 93.5%;
+			}
+			.contenedor .formulario input[type="date"]:hover{
+				background: #930027;
+				border-radius: 10px;
+			}
 
 .navegacion{
  position: fixed;
@@ -308,3 +329,47 @@ select{
 #pad{
 	top: 200px;
 }
+
+
+li.in{
+	padding: 10px;
+	font-size: 20px;
+	background-color: #000;
+	z-index: 200;
+	color: #fff;
+}
+	li.in:hover{
+		background: #040404;
+		border-radius: 1px;
+		border: 2px solid #f2f2f2;
+		color: #fff;
+		display: inline-block;
+		font-family: "Roboto";
+		font-size: 30px;
+		padding: 10px;
+		-webkit-transition: all 500ms ease;
+		-o-transition: all 500ms ease;
+		transition: all 500ms ease;
+		width: 100%;
+		border-radius: 10px;
+	}
+li.out{
+	padding: 10px;
+	font-size: 20px;
+	background-color: #930027;
+	color: #fff;
+
+}
+	li.out:hover{
+		border-radius: 1px;
+		border: 2px solid #f2f2f2;
+		display: inline-block;
+		font-family: "Roboto";
+		font-size: 30px;
+		padding: 10px;
+		-webkit-transition: all 500ms ease;
+		-o-transition: all 500ms ease;
+		transition: all 500ms ease;
+		width: 100%;
+		border-radius: 10px;
+	}
