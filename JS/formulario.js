@@ -89,12 +89,13 @@ function valusuario(){
 
 	if ((input.value == "empleado") && (password.value == "contraseña")) {
 
-		window.location.href("empleadoindex.html");
+		setTimeout(function(){document.location.href = "empleadoindex.html"},500);
+		
 	}else if ((input.value == "administrador") && (password.value == "contraseña") ) {
 
-		window.location.href("administradorindex.html");
+		setTimeout(function(){document.location.href = "administradorindex.html"},500);
 	}else{
 		alert("Usuario o contraseña incorrectos");
 	}
-
+	return false;
 };
