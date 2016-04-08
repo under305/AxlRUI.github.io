@@ -99,3 +99,16 @@ function valusuario(){
 	}
 	return false;
 };
+function historia2(){
+	var formulario = document.formulario_login,
+		elementos = formulario.elements;
+	var o = document.getElementById("historial").value
+	var d = new Date(o);
+
+	document.getElementById("fecha").innerHTML = "<div class='inventario1'>" +
+							+"<label class='label'>Inventario, negro existencias rojo agotado</label>"
+							+"<ul class='list'>"
+								+"<li class='in'>NOMBRE DEL EMPLEADO SOLICITUD ETC ETC</li>"
+							+"</ul>"
+						+"</div>";
+};
