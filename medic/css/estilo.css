@@ -1,64 +1,176 @@
 html{
-	height: 100%;
-	
+	font-family: Raleway;
 }
 * {
-	padding: 0;
-	margin: 0;
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-body{
-	background: white;
+ 
+body {background:#FEFEFE;}
+ 
+.menu {
+	display:none;
 }
-header{
-	background: #004d93;
+ 
+header {
 	width: 100%;
-	height: 80px;
-	position: fixed;
-	z-index: 100;
-	margin: 0;
-	padding: 0;
+}
+ 
+header nav {
+	background:#004d93;
+	z-index:1000;
+	width:100%;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease;
+}
+ 
+header nav ul {
+	list-style:none;
+}
+ 
+header nav ul li {
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease;
+	display:inline-block;
+	position: relative;
+}
+ 
+header nav ul li:hover {
+	background:#71b31c;
+}
+ 
+header nav ul li a {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+}
+ 
+header nav ul li a span {
+	margin-right:10px;
+}
+ 
+header nav ul li:hover .hijo {
+	display:block;
+}
+ 
+header nav ul li .hijo {
+	display: none;
+	background:#00386a;
+	position: absolute;
+	width: 150%;
+	z-index:1000;
+}
+ 
+header nav ul li .hijo li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+ 
+header nav ul li .hijo li a {
+	display: block;
+}
+ 
+header nav ul li .hijo li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+ 
+header nav ul li .sub {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+ 
+@media screen and (max-width: 800px) {
+	body {
+		padding-top:80px;
+	}
+ 
+	.menu {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background:#639d17;
+	}
+ 
+	.menu .boton {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+ 
+	.menu span {
+		float: right;
+		font-size: 40px;
+	}
+ 
+	header nav {
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+	}
+ 
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+	.index {
+		display: none;
+	}
+ 
+	header nav ul li a {
+		display: block;
+	}
+ 
+	header nav ul li:hover .hijo {
+		display: none;
+	}
+ 
+	header nav ul li .hijo {
+		width: 100%;
+		position: relative;
+	}
+ 
+	header nav ul li .hijo li a {
+		margin-left:20px;
+	}
+ 
+	header nav ul li .sub {
+		float: right;
+	}
+	.logo{
+		right: 0;
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		margin-right: 10px;
+		bottom: 0;
+}
+}
+.logo{
+	right: 0;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-right: 10px;
 }
 
-svg.main{
-	height: 100px;
-	float: left;
-	width: 100px;
-	z-index: 100;
-}
-div.main{
-	display: block!important;
-	height: 110px;
-	width: 300px;
-	float: left;
-	z-index: 100;
-	-webkit-transition:-webkit-transform 0.5s ease-out;
-	-moz-transition:-moz-transform 0.5s ease-out;
-	-o-transition:-o-transform 0.5 ease-out;
-	-ms-transition:-moz-transform 0.5 ease-out;
-	transition:transform 0.5 ease-out;
-	margin: 0 auto 0 auto;
-	padding: 0 auto 0 auto;
-	-webkit-transition: all 800ms ease;
-	-o-transition: all 800ms ease;
-	transition: all 800ms ease;
-	margin-left: 2%;
-}
-div.main:hover{
-	border-radius: 100px;
-	background: #71B31C;
-	-moz-transform: scale(1.3);
-	-webkit-transform: scale(1.3);
-	-o-transform: scale(1.3);
-	-ms-transform: scale(1.3);
-	transform: scale(1.3);
-}
-div.center{
-	font-size: 25px;
-	color: white;
-	font-family: Raleway; 
-	text-align: center;
-	margin-top: 50px;
-	float: bottom;
-	display: block;
-	height: 100px;
-}

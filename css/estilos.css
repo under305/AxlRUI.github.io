@@ -52,9 +52,9 @@ header a{
 	line-height: normal;
 	font-size: 20px
 	font-weight:bold;
-	-webkit-transition:all 500ms ease;
-	-o-transition:all 500ms ease;
-	transition: all 500ms ease;
+	-webkit-transition:all 1000ms ease;
+	-o-transition:all 1000ms ease;
+	transition: all 1000ms ease;
 }
 
 nav a:hover{

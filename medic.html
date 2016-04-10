@@ -3,16 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="scripts.js"></script>
+	<script src="medic/js/scripts.js"></script>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Consulta Medica</title>
-	<link rel="stylesheet" type="text/css" href="/medic/css/estilo.css">
+	<link rel="stylesheet" href="medic/otros/fonts.css">
+	<link rel="stylesheet" type="text/css" href="medic/css/estilo.css">
 	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 </head>
 <body>
-		<header class="heads">
-			<div class="main">
-				<svg class="main" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	<header>
+		<div class="menu">
+			<a href="#" class="boton"><span class="icon-menu"></span>Consulta Medica</a>
+		</div>
+ 
+		<nav>
+		<svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 					 width="268.166px" height="273.515px" viewBox="0 0 268.166 273.515" enable-background="new 0 0 268.166 273.515"
 					 xml:space="preserve">
 				<polygon fill="#71B31C" points="209.433,273.515 120.035,203.112 13.741,256.621 58.089,165.584 0,86.03 98.52,86.03 175.952,0 
@@ -22,24 +27,36 @@
 				<polygon fill="#71B31C" points="137.919,167.293 118.724,160.086 101.903,171.813 102.826,151.33 86.476,138.958 106.241,133.505 
 					112.956,114.132 124.249,131.246 144.75,131.644 131.963,147.673 "/>
 				</svg>
-				<div class="center">
-					Consulta Medica
-				</div>
-			</div>
-			<nav>				
-				<ul>
-					<li>Información</li>
-					<li>Operaciones</li>
-					<li>Ayuda</li>
-				</ul>
-			</nav>
-		</header>
-	<div>
+			<ul>
+				<li class="index" ><a href="#">Consulta Medica</a></li>
+				<li class="submenu">
+					<a href="#"><span class="icon-info-with-circle"></span>Información<span class="sub icon-circle-down"></a>
+					<ul class="hijo">
+						<li><a href="medic/medicos.html">Médicos</a></li>
+						<li><a href="medic/especialidades.html">Especialidades</a></li>
+					</ul>
+				</li>
+				<li class="submenu">
+					<a href="#"><span class="icon-aid-kit"></span>Operaciones<span class="sub icon-circle-down"></span></a>
+					<ul class="hijo">
+						<li><a href="#">sub</a></li>
+						<li><a href="#">sub</a></li>
+						<li><a href="#">sub</a></li>
+						<li><a href="#">sub</a></li>
+						<li><a href="#">sub</a></li>
+						<li><a href="#">sub</a></li>
+						<li><a href="#">sub</a></li>
+					</ul>
+				<li class="submenu">
+					<a href="#"><span class="icon-help-with-circle"></span>Ayuda<span class="sub icon-circle-down"></a>
+					<ul class="hijo">
+						<li><a href="#">sub</a></li>
+						<li><a href="#">sub</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</header>
 
-
-		<section class="content">
-			
-		</section>
-	</div>
 </body>
 </html>
