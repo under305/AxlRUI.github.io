@@ -186,7 +186,9 @@ header nav ul li .sub {
 	width: 100%;
 }
 .slidesjs-pagination{
-
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease;
 	background: #3f51b5;
 	list-style: none;
 	overflow: hidden;
@@ -200,6 +202,9 @@ header nav ul li .sub {
 	padding: 10px 20px;
 	color: #fff;
 	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease;
 }
 .slidesjs-pagination li a:hover{
 	background: #639d17;
