@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?bu9t9n');
-    src:    url('fonts/icomoon.eot?bu9t9n#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?bu9t9n') format('truetype'),
-        url('fonts/icomoon.woff?bu9t9n') format('woff'),
-        url('fonts/icomoon.svg?bu9t9n#icomoon') format('svg');
+    src:    url('fonts/icomoon.eot?k4b58u');
+    src:    url('fonts/icomoon.eot?k4b58u#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?k4b58u') format('truetype'),
+        url('fonts/icomoon.woff?k4b58u') format('woff'),
+        url('fonts/icomoon.svg?k4b58u#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -33,6 +33,12 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-controller-play:before {
+    content: "\e916";
+}
+.icon-controller-stop:before {
+    content: "\e917";
+}
 .icon-help-with-circle:before {
     content: "\e914";
 }
@@ -41,6 +47,9 @@
 }
 .icon-information:before {
     content: "\e913";
+}
+.icon-full-moon:before {
+    content: "\e918";
 }
 .icon-home3:before {
     content: "\e900";
