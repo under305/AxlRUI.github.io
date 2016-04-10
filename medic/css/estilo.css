@@ -20,7 +20,7 @@ header {
 }
  
 header nav {
-	background:#004d93;
+	background:#3f51b5;
 	z-index:1000;
 	width:100%;
 	-webkit-transition:all 500ms ease;
@@ -41,7 +41,7 @@ header nav ul li {
 }
  
 header nav ul li:hover {
-	background:#71b31c;
+	background:#7cb342;
 }
  
 header nav ul li a {
