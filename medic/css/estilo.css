@@ -21,7 +21,7 @@ header {
  
 header nav {
 	background:#3f51b5;
-	z-index:1000;
+	z-index:2000;
 	width:100%;
 	-webkit-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
@@ -103,6 +103,7 @@ header nav ul li .sub {
 		position: fixed;
 		top:0;
 		background:#639d17;
+		z-index: 2000;
 	}
  
 	.menu .boton {
@@ -221,7 +222,6 @@ header nav ul li .sub {
 	float: right;
 }
 h1.subbanner{
-	font-size: 100%;
 	z-index: 1000;
 	background: rgba(0,0,0,0.5);
 	position: absolute;
