@@ -4,10 +4,9 @@
 }
 body{
 	background: url('/AxlRUI.github.io/proyectofinal/otros/london.jpg') #000;
-	background-size: cover;
+	background-size: 1600px;
 	font-family: "Raleway";
 	padding-top: 100px;
-	background-repeat: no-repeat;
 	width: 100%;
 }
 	header nav {
