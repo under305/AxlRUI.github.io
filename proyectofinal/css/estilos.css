@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url('/Users/AxL/Desktop/AxlRUI.github.io/proyectofinal/otros/london.jpg') #000;
+	background-size: cover;
+	font-family: "Raleway";
+	padding-top: 100px;
+	background-repeat: no-repeat;
+}
+	header nav {
+		width: 100%;
+		position: fixed;
+	}
+	.menu{
+	background: rgba(114,114,114,0.5);
+	display:block;
+	width:100%;
+	position: fixed;
+	top:0;
+
+}
+	header nav .boton{
+			text-align: center;
+			display: block;
+			padding: 20px;
+			color: #fff;
+			overflow: hidden;
+			font-size: 25px;
+			font-weight: bold;
+			text-decoration: none;
+
+	}
+	header nav span.task{
+		float: left;
+		font-size: 40px;
+	} 
+	header nav span.config{
+		float: right;
+		font-size: 40px;
+	}
+.bienvenida{
+	font-size: 40px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	background: rgba(0,0,0,0.9);
+	color: #fff;
+	height: 50%;
+	width: 80%;
+	margin: 0 auto;
+	
+}
+.reg{
+	display: block;
+	padding: 30px;
+	font-size: 20px;
+	background: rgba(0,0,0,0.9);
+	color: #fff;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	margin-top: 20px;
+
+}
+.registro input[type="button"]{
+	font-size: 20px;
+	text-decoration: none;
+	background: #D32F2F;
+	padding: 10px;
+	margin-left: 20%;
+	color: #fff;
+	display: inline-block;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	border: 2px solid #D32f2f;
+	cursor: pointer;
+	z-index: 4000;
+}
+.login input[type="button"]{
+	text-decoration: none;
+	font-size: 20px;
+	background: #D32F2F;
+	padding: 10px;
+	margin-left: 40%;
+	color: #fff;
+	display: inline-block;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	border: 2px solid #D32f2f;
+	cursor: pointer;
+}
+
