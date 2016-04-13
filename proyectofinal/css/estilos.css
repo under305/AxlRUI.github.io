@@ -8,6 +8,7 @@ body{
 	font-family: "Raleway";
 	padding-top: 100px;
 	background-repeat: no-repeat;
+	width: 100%;
 }
 	header nav {
 		width: 100%;
